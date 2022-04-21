@@ -43,23 +43,23 @@ https://github.com/EgeBalci/sgn
 
 测试时间：2022/04/21
 
-![image-20220421152204905](D:\REDTOOL\bypass\mimikatz\go-single-bypass\README.assets\image-20220421152204905.png)
+![image-20220421152204905](README.assets\image-20220421152204905.png)
 
 360效果时好时坏，只能说不要一个马用很久吧
 
-![image-20220421153149751](D:\REDTOOL\bypass\mimikatz\go-single-bypass\README.assets\image-20220421153149751.png)
+![image-20220421153149751](README.assets\image-20220421153149751.png)
 
-![image-20220421153247347](D:\REDTOOL\bypass\mimikatz\go-single-bypass\README.assets\image-20220421153247347.png)
+![image-20220421153247347](README.assets\image-20220421153247347.png)
 
 火绒
 
-![image-20220421154009202](D:\REDTOOL\bypass\mimikatz\go-single-bypass\README.assets\image-20220421154009202.png)
+![image-20220421154009202](README.assets\image-20220421154009202.png)
 
 windows defender
 
-![image-20220421154326483](D:\REDTOOL\bypass\mimikatz\go-single-bypass\README.assets\image-20220421154326483.png)
+![image-20220421154326483](README.assets\image-20220421154326483.png)
 
 卡巴免费版
 
-![image-20220421154802358](D:\REDTOOL\bypass\mimikatz\go-single-bypass\README.assets\image-20220421154802358.png)
+![image-20220421154802358](README.assets\image-20220421154802358.png)
 
